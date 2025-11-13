@@ -1,0 +1,19 @@
+$ git remote add origin https://github.com/AkaisGarcia/GarciaNavarroGitcomandos.git
+touch readme.md
+$ git add .
+$ git commit -m "añado mi nombre"
+$ git status
+On branch master
+nothing to commit, working tree clean
+$ touch respuestas.txt
+$ git add .
+$ git commit -m "añado respuestas"
+$ git branch -M main
+$ git push -u origin main
+$ git branch primeras
+$ git checkout primeras
+$ mkdir examen
+$ cd examen
+$ mkdir 1
+$ mkdir 2
+$ mkdir 3
