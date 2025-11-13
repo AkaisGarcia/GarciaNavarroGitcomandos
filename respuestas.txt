@@ -22,4 +22,9 @@ $ git add .
 $ git commit -m "añado mas respuestas"
 $ git push -u origin primeras
 $ cd examen/2/
- cp ../1/akais.txt ../3/
+$ cp ../1/akais.txt ../3/
+$ git add .
+$ git commit -m "mas respuestas"
+$ git merge primeras
+$ git add .
+$ git push -u origin main
