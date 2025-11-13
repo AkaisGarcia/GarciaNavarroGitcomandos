@@ -17,3 +17,9 @@ $ cd examen
 $ mkdir 1
 $ mkdir 2
 $ mkdir 3
+$ touch examen/1/akais.txt
+$ git add .
+$ git commit -m "añado mas respuestas"
+$ git push -u origin primeras
+$ cd examen/2/
+ cp ../1/akais.txt ../3/
